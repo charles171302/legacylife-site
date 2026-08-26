@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LegacyLife RolePlay — Règlement officiel</title>
+<meta name="description" content="Règlement officiel de LegacyLife RolePlay — serveur FiveM.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="accueil">
+  <img src="banner.png" alt="LegacyLife RolePlay" class="hero-bg">
+  <div class="shade"></div>
+  <div class="hero-content">
+    <div class="pill">● SERVEUR FIVEM • ROLEPLAY</div>
+    <h1>Legacy<span>Life</span><br><small>RolePlay</small></h1>
+    <p>Une ville. Des histoires. <b>Ton Legacy.</b></p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#reglement">Lire le règlement</a>
+      <a class="btn ghost" href="https://discord.gg/xMg4H4xPez" target="_blank" rel="noopener">Rejoindre Discord ↗</a>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="#accueil">Legacy<span>Life</span></a>
+    <div class="links">
+      <a href="#accueil">Accueil</a><a href="#reglement">Règlement</a>
+      <a href="#sanctions">Sanctions</a><a href="#staff">Staff</a>
+    </div>
+    <a class="nav-discord" href="https://discord.gg/xMg4H4xPez" target="_blank" rel="noopener">Discord</a>
+  </div>
+</nav>
+
+<main>
+<section class="welcome">
+  <div>
+    <span class="eyebrow">BIENVENUE À LEGACYLIFE</span>
+    <h2>Le règlement,<br><span>simplement.</span></h2>
+    <p>Le règlement garantit une expérience RolePlay immersive, équitable et agréable. Il s'applique à tous les joueurs, sans exception.</p>
+  </div>
+  <div class="stats">
+    <div><strong>01</strong><span>Respect</span></div>
+    <div><strong>02</strong><span>Immersion</span></div>
+    <div><strong>03</strong><span>Fair-play</span></div>
+  </div>
+</section>
+
+<section id="reglement" class="rules-wrap">
+  <div class="section-head">
+    <div><span class="eyebrow">RÈGLEMENT OFFICIEL</span><h2>Les règles de la ville</h2></div>
+    <input id="search" type="search" placeholder="⌕  Rechercher une règle...">
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-filter="all">Tout</button>
+    <button class="tab" data-filter="rp">RolePlay</button>
+    <button class="tab" data-filter="general">Général</button>
+    <button class="tab" data-filter="jobs">Métiers</button>
+    <button class="tab" data-filter="illegal">Illégal</button>
+  </div>
+
+  <div class="grid" id="ruleGrid">
+    <article class="rule-card" data-cat="general" data-text="respect comportement général discord staff">
+      <div class="icon">01</div><div><h3>Règles générales</h3><p>Respect, comportement, communauté et bonnes pratiques.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li>Le respect des joueurs et du staff est obligatoire.</li>
+        <li>Insultes, harcèlement, provocation gratuite et toxicité sont interdits.</li>
+        <li>Le troll, spam et exploitation volontaire de bugs sont interdits.</li>
+        <li>Il est interdit de contourner une sanction.</li>
+      </ul></div>
+    </article>
+
+    <article class="rule-card" data-cat="rp" data-text="roleplay rp metagaming powergaming fear rp immersion">
+      <div class="icon">02</div><div><h3>RolePlay & immersion</h3><p>Les bases indispensables pour des scènes cohérentes.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li><b>Metagaming :</b> utiliser en RP une information obtenue hors RP est interdit.</li>
+        <li><b>Powergaming :</b> imposer une action irréaliste à un autre joueur est interdit.</li>
+        <li><b>Fear RP :</b> votre personnage doit craindre les situations dangereuses.</li>
+        <li>Votre personnage doit rester cohérent avec son histoire.</li>
+      </ul></div>
+    </article>
+
+    <article class="rule-card" data-cat="rp illegal" data-text="freekill rdm vdm meurtre violence fusillade">
+      <div class="icon">03</div><div><h3>Freekill / RDM / VDM</h3><p>Encadrement des agressions, morts et véhicules.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li>Le FreeKill / RDM sans raison RP valable est interdit.</li>
+        <li>Le VDM sans justification RP est interdit.</li>
+        <li>Une fusillade doit avoir une raison RP cohérente.</li>
+        <li>Le retour abusif sur une scène après une mort/coma est interdit.</li>
+      </ul></div>
+    </article>
+
+    <article class="rule-card" data-cat="jobs" data-text="police lspd sheriff ems ambulance métier service">
+      <div class="icon">04</div><div><h3>Police & EMS</h3><p>Règles concernant les services publics.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li>Les forces de l'ordre et services de secours doivent être respectés.</li>
+        <li>Abuser de ses fonctions pour obtenir un avantage personnel est interdit.</li>
+        <li>Les informations obtenues en service ne doivent pas être utilisées hors RP.</li>
+      </ul></div>
+    </article>
+
+    <article class="rule-card" data-cat="illegal" data-text="illégal gang mafia braquage otage trafic">
+      <div class="icon">05</div><div><h3>Illégal & organisations</h3><p>Gangs, braquages, prises d'otages et scènes illégales.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li>Une activité illégale doit avoir une cohérence RP.</li>
+        <li>Les braquages et prises d'otages doivent rester jouables pour toutes les parties.</li>
+        <li>Le comportement « no fear » est interdit.</li>
+        <li>Les scènes illégales ne doivent pas devenir du simple PvP.</li>
+      </ul></div>
+    </article>
+
+    <article class="rule-card" data-cat="jobs" data-text="entreprise patron travail commerce">
+      <div class="icon">06</div><div><h3>Entreprises & métiers</h3><p>Responsabilités des employés et dirigeants.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li>Les employés doivent respecter les règles de leur entreprise.</li>
+        <li>L'abus de fonction et l'enrichissement injustifié sont interdits.</li>
+        <li>Les scènes professionnelles doivent rester cohérentes.</li>
+      </ul></div>
+    </article>
+
+    <article class="rule-card" data-cat="general" data-text="triche cheat exploit logiciel">
+      <div class="icon">07</div><div><h3>Triche & exploits</h3><p>Zéro tolérance pour les avantages déloyaux.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li>Cheat, injection, logiciel donnant un avantage et triche sont interdits.</li>
+        <li>Tout bug exploitable doit être signalé au staff.</li>
+        <li>Le partage ou la promotion de cheats peut entraîner un bannissement définitif.</li>
+      </ul></div>
+    </article>
+
+    <article class="rule-card" data-cat="general" data-text="discord vocal communication">
+      <div class="icon">08</div><div><h3>Communication</h3><p>Discord, vocal et informations hors personnage.</p></div><button>+</button>
+      <div class="details"><ul>
+        <li>Les informations Discord ne doivent pas être utilisées en RP.</li>
+        <li>Les communications vocales doivent rester respectueuses.</li>
+        <li>Les litiges doivent être remontés au staff via les canaux prévus.</li>
+      </ul></div>
+    </article>
+  </div>
+</section>
+
+<section id="sanctions" class="sanctions">
+  <div><span class="eyebrow">MODÉRATION</span><h2>Les sanctions</h2><p>Le staff adapte la sanction à la gravité des faits, au contexte et aux antécédents du joueur. Le règlement peut être appliqué plus sévèrement en cas de récidive.</p></div>
+  <div class="sanction-list">
+    <div><b>01</b><span><strong>Avertissement</strong>Rappel à l'ordre</span></div>
+    <div><b>02</b><span><strong>Kick / Temporaire</strong>Exclusion limitée</span></div>
+    <div><b>03</b><span><strong>Bannissement</strong>Exclusion longue ou définitive</span></div>
+  </div>
+</section>
+
+<section id="staff" class="contact">
+  <span class="eyebrow">BESOIN D'AIDE ?</span>
+  <h2>Le staff est là pour toi.</h2>
+  <p>Une question sur une règle, une sanction ou une situation RP ? Ouvre un ticket sur notre Discord.</p>
+  <a class="btn primary" href="https://discord.gg/xMg4H4xPez" target="_blank" rel="noopener">Ouvrir le Discord ↗</a>
+</section>
+</main>
+
+<footer><strong>Legacy<span>Life</span> RolePlay</strong><span>© 2026 • Règlement officiel • FiveM</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
